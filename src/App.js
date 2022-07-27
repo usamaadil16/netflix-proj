@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+
+  //5.12.0
   
   useEffect(()=>{
     const fetchdata = async () => {
